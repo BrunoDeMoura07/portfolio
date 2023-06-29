@@ -17,7 +17,14 @@ body {
     padding: 0;
     line-height: 1;
 }
+
+ol, ul,li {
+    list-style: none;
+} 
+
 .titulos{
     font-size: 3rem;
     font-weight: 700;
+    margin: 2rem 0 0 0 ;
+    text-align: center;
 }
