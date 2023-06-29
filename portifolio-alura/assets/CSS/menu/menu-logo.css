@@ -1,0 +1,8 @@
+.menu__logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 3.5rem;
+}

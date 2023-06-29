@@ -1,0 +1,6 @@
+.titulo{
+    display: flex;
+    height: 40rem;
+    background: linear-gradient(#0ecebe, #0886c0)
+}
+

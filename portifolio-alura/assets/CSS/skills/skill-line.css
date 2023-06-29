@@ -1,0 +1,4 @@
+.skills__line{
+    display:flex;
+    flex-direction: row;
+}

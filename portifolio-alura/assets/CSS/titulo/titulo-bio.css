@@ -1,0 +1,7 @@
+.titulo__bio{
+    color: var(--cor-de-link);
+    display: flex;
+    justify-content: center;
+    font-size: 7rem;
+    font-weight: 700;
+}

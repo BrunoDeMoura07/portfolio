@@ -1,0 +1,8 @@
+.titulo__network{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    gap: 4rem;
+    margin-left: 3.5rem;
+    margin-top: 10rem;
+}

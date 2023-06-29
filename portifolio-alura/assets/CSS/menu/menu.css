@@ -1,0 +1,7 @@
+.menu{
+    align-items: center;
+    background:var(--cor-nav);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
