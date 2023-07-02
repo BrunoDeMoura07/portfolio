@@ -1,6 +1,15 @@
 .hobbies__img{
+    box-sizing: border-box;
+    text-align:initial; 
+    height: 17.6rem;
+    margin: 4rem 0;
+    padding: 2rem;
+    width: 17.4rem;
+    background-color: aqua;
 }
 
 .hobbies__img-icon{
     width: 4rem;
+    color:#2A7AE4;
+    
 }
