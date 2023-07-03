@@ -47,7 +47,12 @@
     <link rel="stylesheet" href="assets/CSS/experience/experience-button.css">
     <link rel="stylesheet" href="assets/CSS/experience/experience-info.css">
     <link rel="stylesheet" href="assets/CSS/experience/experience-img.css">
-    <link rel="stylesheet" href="assets/CSS/formulario-contato/formcontato-contao.css">
+    <link rel="stylesheet" href="assets/CSS/formulario-contato/formcontato-contato.css">
+    <link rel="stylesheet" href="assets/CSS/formulario-contato/form-text.css">
+    <link rel="stylesheet" href="assets/CSS/formulario-contato/form-titulo.css">
+    <link rel="stylesheet" href="assets/CSS/formulario-contato/form-contato-subtext.css">
+    <link rel="stylesheet" href="assets/CSS/formulario-contato/form-contato-botao.css">
+    <link rel="stylesheet" href="assets/CSS/formulario-contato/form-contato-form.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -89,9 +94,9 @@
                 <h3 class="titulo__subsection">Sou apaixonado por tecnologia, atualmente sou técnico em celulares e estou desde 2022 aprendendo tecnologias como, HTML5, CSS3, e JavaScript, atualmente estou participando do projeto Oracle ONE na Alura.</h3>
                 <ul class="titulo__network">
                     <!-- Ponha os links de suas redes sociais favoritas -->
-                    <li class="titulo__network__item"><a href="">Github <img src="assets/IMG/contato/github.svg"> </a></li>
-                    <li class="titulo__network__item"><a href="">Linkedin <img src="assets/IMG/contato/linkedin.svg"></a></li>
-                    <li class="titulo__network__item"><a href="">Curriculo <img src="assets/IMG/contato/curriculo.svg"></a></li>
+                    <li class="titulo__network__item"><a href="">Github <img src="assets/IMG/contato/github.svg" alt="icone github"> </a></li>
+                    <li class="titulo__network__item"><a href="">Linkedin <img src="assets/IMG/contato/linkedin.svg" alt="icone linkedin"></a></li>
+                    <li class="titulo__network__item"><a href="">Curriculo <img src="assets/IMG/contato/curriculo.svg" alt="icone curriculo"></a></li>
                 </ul>
             </div>
         </div>
@@ -189,6 +194,14 @@
                     <li class="academic__courses__item__subtitle"><p>2023 - Alura</p></li>
                 </ul>
             </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Insira a logo de seu local de formação -->
+                    <li class="academic__courses__item__img"><img src="assets/IMG/curso-em-video.jpeg" alt="logo do curso em vídeo"></li>
+                    <li class="academic__courses__item__title"><h4>Curso de HTML5, CSS3 e JavaScript</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2022 - Curso em Vídeo</p></li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -212,8 +225,8 @@
         <div class="experiencie__box">
             <!-- Insira a logo/captura de seu projeto/trabalho -->
             <img class="experience__img" src="assets/IMG/em-breve.jpg" alt="em breve">
-            <div class="experience__info"
-                <h2 class="experience__title">Jogo criado com HTML, CSS e JavaScript</h2>
+            <div class="experience__info">
+                <h2 class="experience__title">em breve</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>
                     <div class="experience__description">
                         <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
@@ -228,14 +241,14 @@
         <section class="formcontato">
             <div id="contato" class="formcontato__contato">
                 <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="assets/IMG/contato/contato.svg">
+                    <img class="formcontato__img" src="assets/IMG/contato/contato.svg" alt="imagem de um telefone">
                 </div>
                 <div class="formcontato__text">
                     <h2 class="formcontato__title titulos">Contato</h2>
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
                     <form class="formcontato__form">
-                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
+                        <label><input class="formcontato__input" type="text" id="nome" placeholder="Nome">Seu nome</label>
                         <input class="formcontato__input" type="email" id="email" placeholder="Email">
                         <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
                         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
