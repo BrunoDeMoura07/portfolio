@@ -1,4 +1,16 @@
 .botao{
-    padding: 2rem;
+    border-radius: 7%;
+    margin-right: 1rem;
+    padding: 1.4rem;
     text-align: center;
+    width: 11rem;
 }
+
+.experiencia__botao--repo{
+    color:var(--cor-azul-padrao) ;
+}
+
+.experiencia__botao--demo{
+    background-color: var(--cor-azul-padrao);
+    color: var(--cor-branco);
+} 
