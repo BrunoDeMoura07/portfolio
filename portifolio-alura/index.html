@@ -205,7 +205,6 @@
         </div>
     </section>
 
-    <!-- Sessão de Experiência Profissional/Projetos-->
     <section class="experience">
         <h2 class="experience__section__title titulos" id="xp">Experiência Profissional</h2>
         <div class="experiencie__box">
@@ -234,8 +233,10 @@
                             <span class="experience__demo"><a href=""><button class="experiencia__botao--demo botao">Ver demo</button></a></span>
                     </div>
             </div>
-        </div>  
-        </div>  
+        </div>
+    </section> 
+
+    </div>
 
         <!-- Sessão de Contato -->
         <section class="formcontato">
@@ -248,7 +249,9 @@
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
                     <form class="formcontato__form">
-                        <label><input class="formcontato__input" type="text" id="nome" placeholder="Nome">Seu nome</label>
+                        <label for="nome" class="nome input">Seu nome</label>
+                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
+                        <label for="email" class="e-mail input">Seu e-mail</label>
                         <input class="formcontato__input" type="email" id="email" placeholder="Email">
                         <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
                         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
