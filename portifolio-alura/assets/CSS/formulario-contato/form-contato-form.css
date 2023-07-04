@@ -1,17 +1,19 @@
 .formcontato__form{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     height: 58rem;
 }
 
 .formcontato__input{
     height: 6.5rem;
-    margin: 2rem 0;
+    margin: 1.8rem 0;
     padding: 0 1rem;
     width: 64.6;
 }
 
 .input{
-    font: 400 1.6rem;
+    color: var(--cor-azul-padrao);
+    font-size: 1.6rem;
+    font-weight: 600;
     margin-top: 2rem;
 }
