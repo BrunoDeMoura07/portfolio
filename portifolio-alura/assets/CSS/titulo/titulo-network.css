@@ -1,8 +1,9 @@
 .titulo__network{
-    background-color: bisque;
+    color: var(--cor-nav);
     display: flex;
     flex-direction: row;
     font-size: 2rem;
     font-weight: 600;
     gap: 4rem;
+    margin-top: 10rem;
 }

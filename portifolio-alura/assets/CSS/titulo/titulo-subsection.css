@@ -1,6 +1,6 @@
 .titulo__subsection{
+    color: var(--cor-nav);
     font-size: 2rem;
     font-weight: 600;
-    margin-top: 2rem;
-    background-color: aqua;
+    margin-top: 2.5rem;
 }

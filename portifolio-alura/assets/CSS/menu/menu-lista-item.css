@@ -1,6 +1,8 @@
 .menu__lista__item{
+    color: var(--cor-de-fundo);
     font-size: 1.6rem;
     font-weight: 600;
+    opacity: 0.9;
     padding-left: 1.8rem;
 }
 
@@ -8,7 +10,8 @@
     font-weight: bolder;
 }
 .menu__lista__item:hover{
-    color: var(--cor-azul-padrão);
+    color: var(--cor-azul-padrao);
+    opacity: 1;
     transform: scale(1.1);
     transition: 300ms;
 }
