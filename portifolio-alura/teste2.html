@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Exemplos de Títulos Animados para Portfólio Front-end</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .animated-title {
+      font-size: 2em;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Exemplo 1: Título de Abertura com Animação de Digitação */
+    #typingTitle {
+      animation: typing 4s steps(40, end);
+    }
+
+    /* Exemplo 2: Título com Animação de Fundo Gradiente */
+    #gradientTitle {
+      background: linear-gradient(45deg, #00f, #f00, #0f0, #00f);
+      background-size: 400% 400%;
+      animation: gradient 4s linear infinite;
+    }
+
+    /* Exemplo 3: Título com Animação de Partículas */
+    #particlesTitle {
+      position: relative;
+    }
+    .particle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background-color: #fff;
+      border-radius: 50%;
+      animation: particles 2s linear infinite;
+    }
+
+    /* Exemplo 4: Título de Abertura com Animação de Máquina de Escrever */
+    #typewriterTitle {
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typing 4s steps(40, end);
+    }
+
+    /* Exemplo 5: Título com Animação de Trovão */
+    #thunderTitle {
+      background: linear-gradient(0deg, #FFD700, #FFD700);
+      background-clip: text;
+      -webkit-background-clip: text;
+      animation: thunder 1s infinite alternate;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+
+    @keyframes particles {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-200px);
+        opacity: 0;
+      }
+    }
+
+    @keyframes thunder {
+      0% {
+        text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 15px #FFD700;
+      }
+      100% {
+        text-shadow: 0 0 5px #FFD700, 0 0 20px #FFD700, 0 0 25px #FFD700;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Exemplo 1: Título de Abertura com Animação de Digitação -->
+  <h1 class="animated-title" id="typingTitle">Meu Portfólio Front-end</h1>
+
+  <!-- Exemplo 2: Título com Animação de Fundo Gradiente -->
+  <h1 class="animated-title" id="gradientTitle">Meu Portfólio Front-end</h1>
+
+  <!-- Exemplo 3: Título com Animação de Partículas -->
+  <h1 class="animated-title" id="particlesTitle">Meu Portfólio Front-end
+    <div class="particle" style="left: 20%;"></div>
+    <div class="particle" style="left: 40%;"></div>
+    <div class="particle" style="left: 60%;"></div>
+    <div class="particle" style="left: 80%;"></div>
+  </h1>
+
+  <!-- Exemplo 4: Título de Abertura com Animação de Máquina de Escrever -->
+  <h1 class="animated-title" id="typewriterTitle"></h1>
+
+  <!-- Exemplo 5: Título com Animação de Trovão -->
+  <h1 class="animated-title" id="thunderTitle">Meu Portfólio Front-end</h1>
+
+  <script>
+    // Exemplo 4: Título de Abertura com Animação de Máquina de Escrever
+    const typewriterTitle = document.getElementById('typewriterTitle');
+    const text = 'Meu Portfólio Front-end';
+    let index = 0;
+
+    function type() {
+      if (index < text.length) {
+        typewriterTitle.textContent += text.charAt(index);
+        index++;
+        setTimeout(type, 100);
+      }
+    }
+
+    type();
+  </script>
+</body>
+</html>

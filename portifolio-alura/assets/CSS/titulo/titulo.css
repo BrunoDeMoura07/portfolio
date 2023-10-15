@@ -1,8 +1,19 @@
 .titulo{
-    background-image: linear-gradient(rgb(123, 198, 233),rgb(216, 236, 232));
+    background: linear-gradient(45deg, rgb(118, 118, 123), rgb(99, 97, 97), rgb(37, 42, 37), rgb(164, 164, 183));
+    background-size: 400% 400%;
     box-sizing: border-box;
     height: 40rem;
     width: 100%;
+    animation: gradient 4s linear infinite;
 }
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
 
 
