@@ -1,7 +1,8 @@
 .titulo__bio{
-    color:var(--cor-azul-padrao);
+    color: var(--cor-laranja);
     font-size: 7rem;
     font-weight: 700;
     text-shadow: 5px 5px 5px black;
-    transition: color 0.1s
+    transition: color 0.3s;
+    margin-bottom: 2rem;
 }

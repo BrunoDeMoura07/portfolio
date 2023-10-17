@@ -1,9 +1,17 @@
 .titulo__network{
-    color: var(--cor-preto);
+    color: var(--cor-branco);
     display: flex;
     flex-direction: row;
     font-size: 2rem;
     font-weight: 600;
     gap: 4rem;
-    margin-top: 10rem;
+    margin-top: 10%;
+}
+.icons {
+    width: 2rem;
+    color: var(--cor-azul-padrao);
+}
+.icons:hover {
+    transform: scale(1.1);
+    transition: 300ms;
 }

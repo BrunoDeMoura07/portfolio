@@ -1,5 +1,6 @@
 .sobre-mim{
-    background-color: #EAF2FD;
-    margin-bottom: 5rem;
-    padding: 10rem;
+    background-color:var(--cor-nav);
+    border-radius: 10px;
+    margin: 2rem 4rem;
+    padding: 2rem;
 }

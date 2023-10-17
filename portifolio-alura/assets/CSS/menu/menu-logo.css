@@ -4,5 +4,6 @@
     align-items: center;
 }
 .logo{
+    color: var(--cor-branco);
     height: 3.5rem;
 }

@@ -1,6 +1,7 @@
 .footer{
     align-items: center;
     background: var(--cor-nav);
+    color: var(--cor-verde-agua);
     display: flex;
     justify-content: center;
     height: 5rem;

@@ -1,6 +1,9 @@
 .titulo__perfil{
-    border-radius: 100%;
-    border: 2px solid var(--cor-preto);
-    height: 36.8rem;
-    margin: 1.5rem;
+    border-radius: 20%;
+    border: 3px solid var(--cor-azul-claro);
+    height: 30em;
+    width: 30em;
+}
+.titulo__perfil:hover {
+    border: 3px solid var(--cor-verde-agua);
 }

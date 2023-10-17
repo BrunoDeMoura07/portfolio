@@ -1,4 +1,5 @@
 .sobre-mim__paragrafo{
+    color: var(--cor-branco);
     font-size: 1.8rem;
     font-weight: 500;
 }

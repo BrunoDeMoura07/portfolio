@@ -1,19 +1,15 @@
 .titulo{
-    background: linear-gradient(45deg, rgb(118, 118, 123), rgb(99, 97, 97), rgb(37, 42, 37), rgb(164, 164, 183));
-    background-size: 400% 400%;
+    background-image: url("https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2023/02/Portfolio-Desenvolvedor-Web.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip:content-box;
     box-sizing: border-box;
-    height: 40rem;
+    height: 33.5rem;
     width: 100%;
-    animation: gradient 4s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-@keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    100% {
-      background-position: 100% 50%;
-    }
-  }
 
 

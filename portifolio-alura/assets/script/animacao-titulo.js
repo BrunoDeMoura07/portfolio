@@ -18,6 +18,6 @@ const frontEndText = document.getElementById('titulo-bio');
       const intervalId = setInterval(changeColor, 100);
       frontEndText.addEventListener('mouseout', () => {
         clearInterval(intervalId);
-        frontEndText.style.color = 'var(--cor-azul-padrao)';
+        frontEndText.style.color = 'var(--cor-laranja)';
       });
     });

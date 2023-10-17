@@ -1,5 +1,5 @@
 .menu__lista__item{
-    color: var(--cor-de-fundo);
+    color: var(--cor-azul-claro);
     font-size: 1.6rem;
     font-weight: 600;
     opacity: 0.9;
@@ -10,8 +10,11 @@
     font-weight: bolder;
 }
 .menu__lista__item:hover{
-    color: var(--cor-azul-padrao);
+    color: var(--cor-laranja);
     opacity: 1;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 300ms;
+}
+.menu__lista__item:active {
+    color: var(--cor-verde-agua);
 }

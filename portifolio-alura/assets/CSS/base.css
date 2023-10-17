@@ -1,9 +1,14 @@
 :root{
-    --cor-nav:#323232;
-    --cor-de-fundo:#f3e8e8c8;
+    --cor-nav:#424648;
+    --cor-roxo:#800080;
+    --cor-de-fundo:#6d3be0;
     --cor-preto:#000;
+    --cor-amarelo:#ffd700;
     --cor-azul-padrao:#2A7AE4;
-    --cor-branco:#ffffff;
+    --cor-azul-claro:#70b7ff;
+    --cor-branco:#fefefe;
+    --cor-laranja:#ffa500;
+    --cor-verde-agua:#00ced1;
     --raleway:'Raleway',sans-serif
 }
 
@@ -13,12 +18,11 @@ html{
 }
 
 body {
+    background-color: var(--cor-de-fundo);
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
     font-family:var(--raleway);
     margin: 0;
     padding: 0;
-    line-height: 1;
 }
 
 ol, ul,li {
@@ -26,8 +30,9 @@ ol, ul,li {
 } 
 
 .titulos{
+    color: var(--cor-amarelo);
     font-size: 3rem;
     font-weight: 700;
-    margin: 4rem 0 ;
+    margin: 3rem 0 ;
     text-align: center;
 }

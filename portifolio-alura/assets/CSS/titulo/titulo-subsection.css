@@ -1,6 +1,12 @@
 .titulo__subsection{
-    color: var(--cor-preto);
+    color: var(--cor-branco);
     font-size: 2rem;
     font-weight: 600;
-    margin-top: 2.5rem;
+    margin: 2rem 2rem 2rem 0;
+}
+.titulo__subsection:hover {
+    color: var(--cor-amarelo);
+    text-shadow: 0 0 3px var(--cor-preto);
+    transform: scale(1.01);
+    transition-duration: 300ms;
 }
