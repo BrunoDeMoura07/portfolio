@@ -7,6 +7,9 @@
     gap: 4rem;
     margin-top: 10%;
 }
+.titulo__network:hover {
+    color: var(--cor-amarelo);
+}
 .icons {
     width: 2rem;
     color: var(--cor-azul-padrao);

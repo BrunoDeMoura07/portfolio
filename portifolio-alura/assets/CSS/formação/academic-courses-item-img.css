@@ -1,9 +1,8 @@
 .academic__courses__item__img{
-    text-align: center;
-    margin: 1rem;
+    display: flex;
 }
-.logo__formacao{
-    width: 36.8rem;
-    height: 28.8rem;
-    margin: 1rem
+
+.curso {
+    width: 5em;
+    height: 80%;
 }

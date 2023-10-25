@@ -1,3 +1,8 @@
 .hobbies__box{
-    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--cor-verde-agua);
+    width: 17.4rem;
+    height: 17.6rem;
 }

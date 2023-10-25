@@ -1,0 +1,9 @@
+.hobbies__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color:var(--cor-laranja);
+    font-size: 20px;
+}

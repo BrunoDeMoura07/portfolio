@@ -1,6 +1,6 @@
 .skills__line{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 4rem 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }

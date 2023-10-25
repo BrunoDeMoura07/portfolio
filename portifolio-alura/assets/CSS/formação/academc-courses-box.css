@@ -1,3 +1,14 @@
 .academic__courses__box{
-    padding: 4rem 0;
+    flex-basis: calc(25% - 60px);
+    border-radius: 5px;
+    border: 2px solid var(--cor-verde-agua);
+    box-shadow: 3px 2px 2px black;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+}
+.academic__courses__box:hover {
+    box-shadow: 5px 3px 3px black;
+    transform: scale(1.01);
+    transition: 300ms;
 }
