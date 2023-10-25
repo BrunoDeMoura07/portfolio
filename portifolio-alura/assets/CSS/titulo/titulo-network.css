@@ -1,20 +1,28 @@
 .titulo__network{
     color: var(--cor-branco);
     display: flex;
-    flex-direction: row;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 600;
-    gap: 4rem;
+    gap: 2rem;
     margin-top: 10%;
 }
-.titulo__network:hover {
-    color: var(--cor-amarelo);
+.titulo__network__item {
+    background-color: var(--cor-nav);
+    color: var(--cor-branco);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
 }
 .icons {
-    width: 2rem;
-    color: var(--cor-azul-padrao);
+    font-size: 2.5em;
+    color: var(--cor-azul-claro);
 }
 .icons:hover {
-    transform: scale(1.1);
-    transition: 300ms;
+    color: var(--cor-verde-agua);
+    transform: scale(1.1) rotate(20deg);
+    transition: 400ms;
 }

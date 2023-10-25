@@ -10,5 +10,5 @@
 .academic__courses__box:hover {
     box-shadow: 5px 3px 3px black;
     transform: scale(1.01);
-    transition: 300ms;
+    transition: 400ms;
 }

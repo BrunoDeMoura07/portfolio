@@ -2,7 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 3px 2px 2px var(--cor-preto);
     border: 2px solid var(--cor-verde-agua);
+    border-radius: 5px;
     width: 17.4rem;
     height: 17.6rem;
+}
+.hobbies__box:hover{
+    box-shadow: 5px 3px 3px var(--cor-preto);
+    transform: scale(1.01);
+    transition: 400ms;
 }
