@@ -3,9 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-clip:content-box;
     box-sizing: border-box;
-    height: 33.5rem;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
