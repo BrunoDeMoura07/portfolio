@@ -5,10 +5,10 @@
     padding: 10px;
 }
 .botao:hover{
-    box-shadow: 2px 2px 5px #000;
+    box-shadow: 2px 2px 5px var(--cor-preto);
     opacity: 1;
-    transform: scale(1.1);
-    transition: 300ms;
+    transform: scale(1.03);
+    transition: 400ms;
 }
 .experiencia__botao--repo{
     color:var(--cor-azul-padrao) ;

@@ -3,13 +3,13 @@
     border-radius: 0.5em;
     color: var(--cor-branco);
     height: 5.1rem;
-    margin-top: 1rem;
+    margin: 1rem;
     opacity: 0.8;
     width: 16.5rem;
 }
 .formcontato__botao:hover{
     box-shadow: 2px 2px 5px #000;
     opacity: 1;
-    transform: scale(1.1);
-    transition: 300ms;
+    transform: scale(1.03);
+    transition: 400ms;
 }

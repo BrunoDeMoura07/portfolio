@@ -1,19 +1,24 @@
 .formcontato__form{
     display: flex;
+    align-items: start;
     flex-direction:column;
-    height: 58rem;
+    justify-content: space-evenly;
+    height: 95%;
 }
 
 .formcontato__input{
-    height: 6.5rem;
-    margin: 1.8rem 0;
-    padding: 0 1rem;
-    width: 64.6;
+    margin-bottom: 10px;
+    padding: 1.6rem;
+    height: auto;
+    width: 95%;
+}
+
+.formcontato__textarea {
+    width: 100%;
 }
 
 .input{
     color: var(--cor-azul-padrao);
     font-size: 1.6rem;
     font-weight: 600;
-    margin-top: 2rem;
 }
