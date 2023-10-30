@@ -1,11 +1,5 @@
 .experience__img{
     border-radius: 0.5rem;
-    height: 40rem;
-    width: 75rem;
-}
-.fa-mug-hot {
-    font-size: 42rem;
-    color: var(--cor-azul-claro);
-    text-shadow: 2px 2px 2px var(--cor-preto);
-    text-decoration:dashed;
+    height: 200px;
+    width: 300px;
 }

@@ -1,10 +1,8 @@
 .botao{
     border-radius: 5px;
-    margin-right: 1rem;
     opacity: 0.8;
-    padding: 1.4rem;
     text-align: center;
-    width: 11rem;
+    padding: 10px;
 }
 .botao:hover{
     box-shadow: 2px 2px 5px #000;
