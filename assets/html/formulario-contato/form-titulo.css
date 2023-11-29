@@ -1,5 +1,6 @@
 .formcontato__title{
+    color: var(--cor-azul-padrao);
     font-size: 3rem;
     font-weight: 700;
-    text-align: start;
+    text-align: center;
 }

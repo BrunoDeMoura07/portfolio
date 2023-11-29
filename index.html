@@ -48,13 +48,6 @@
     <link rel="stylesheet" href="assets/CSS/experience/experience-button.css">
     <link rel="stylesheet" href="assets/CSS/experience/experience-info.css">
     <link rel="stylesheet" href="assets/CSS/experience/experience-img.css">
-    <link rel="stylesheet" href="assets/CSS/formulario-contato/formcontato-contato.css">
-    <link rel="stylesheet" href="assets/CSS/formulario-contato/formcontato-img.css">
-    <link rel="stylesheet" href="assets/CSS/formulario-contato/form-text.css">
-    <link rel="stylesheet" href="assets/CSS/formulario-contato/form-titulo.css">
-    <link rel="stylesheet" href="assets/CSS/formulario-contato/form-contato-subtext.css">
-    <link rel="stylesheet" href="assets/CSS/formulario-contato/form-contato-botao.css">
-    <link rel="stylesheet" href="assets/CSS/formulario-contato/form-contato-form.css">
     <link rel="stylesheet" href="assets/CSS/footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,7 +57,7 @@
     <link rel="stylesheet" href="./assets/fontawesome-free-6.4.2-web/css/all.css">
 
     
-    <title>Front-end Developer Bruno Moura</title>
+    <title>Front-end Developer</title>
 </head>
 <body>
     
@@ -72,7 +65,7 @@
     <section class="menu">
         <header>
             <div class="menu__logo">
-              <h1 class="menu__titulo"><i class="fa-solid fa-circle-user"></i> Bruno Moura</h1>
+              <h1 class="menu__titulo" id="menu-titulo"><i class="fa-brands fa-reacteurope"></i> Bruno Moura</h1>
             </div>
         </header>
         <nav>
@@ -82,7 +75,7 @@
                 <li class="menu__lista__item"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__lista__item"><a href="#formacao">Formações e Cursos</a></li>
                 <li class="menu__lista__item"><a href="#xp">Experiência</a></li>
-                <li class="menu__lista__item contato"><a href="#contato">contato</a></li>
+                <li class="menu__lista__item contato"><a target="_self" rel="self" href="assets/html/contato.html">contato</a></li>
             </ul>
         </nav>
     </section>
@@ -176,15 +169,64 @@
                         <li class="hobbies__icon"><i class="fa-brands fa-avianex icon"></i>Viajar</li>
                     </ul>
                 </div>
-
+                
                 <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__icon"><i class="fa-solid fa-bowl-food icon"></i>Cozinhar</li>
                     </ul>
                 </div>
                 
-        </div>
+            </div>
     </section>
+        
+    <section class="experience">
+            <h2 class="experience__section__title titulos" id="xp">Experiência Profissional</h2>
+            <div class="experience__container">
+                <div class="experiencie__box">
+                    
+                    <img class="experience__img" src="./assets/IMG/project/decodificador.png" alt="imagem do site Decodificador">
+                    <div class="experience__info">
+                        <h2 class="experience__title"> Decodificador de texto</h2>
+                        <h3 class="experience__text">Challenge Alura Codificador.</h3>
+                        <h4 class="experience__text">concluido</h4>
+                            <div class="experience__description">
+                                
+                                    <span class="experience__repo"><a target="_blank" href="https://github.com/BrunoDeMoura07/codificador"><button class="experiencia__botao--repo botao">Repositório</button></a></span>
+                                    <span class="experience__demo"><a target="_blank" rel="external" href="https://challenge-alura-decodificador.vercel.app/"><button class="experiencia__botao--demo botao">Ver demo</button></a></span>
+                            </div>
+                    </div>
+                </div>  
+    
+                <div class="experiencie__box">
+                    
+                    <img class="experience__img" src="./assets/IMG/project/loja.png" alt="loja de celulares">
+                    <div class="experience__info">
+                        <h2 class="experience__title">loja de celulares</h2>
+                        <h3 class="experience__text">projeto autoral para venda de celulares.</h3>
+                        <h4 class="experience__text">em desenvolvimento</h4>
+                            <div class="experience__description">
+                                
+                                    <span class="experience__repo"><a target="_blank" rel="external" href="https://github.com/BrunoDeMoura07/Smartphone-Store"><button class="experiencia__botao--repo botao">Repositório</button></a></span>
+                                    <span class="experience__demo"><a target="_blank" rel="external" href="https://smartphone-store.vercel.app/"><button class="experiencia__botao--demo botao">Ver demo</button></a></span>
+                            </div>
+                    </div>
+                </div>
+                <div class="experiencie__box">
+                    
+                    <img class="experience__img" src="./assets/IMG/project/nwl-ai.png" alt="imagem da página de resumo">
+                    <div class="experience__info">
+                        <h2 class="experience__title">Shorts Summary-AI</h2>
+                        <h3 class="experience__text">Resume video usando inteligência artificial.</h3>
+                        <h4 class="experience__text">em desenvolvimento</h4>
+                            <div class="experience__description">
+                                
+                                    <span class="experience__repo"><a target="_blank" rel="external" href="https://github.com/BrunoDeMoura07/NLW-AI"><button class="experiencia__botao--repo botao">Repositório</button></a></span>
+                                    <span class="experience__demo"><a target="_blank" rel="external" href="https://nlw-ai-one.vercel.app/"><button class="experiencia__botao--demo botao">Ver demo</button></a></span>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </section> 
 
     <section class="academic">
         <h2 class="academic__title titulos" id="formacao">Formação acadêmica</h2>
@@ -377,8 +419,8 @@
                     <li class="academic__courses__item__img"><img src="https://www.alura.com.br/assets/api/cursos/mobile-responsivos-first-layouts.svg" alt="ícone" class="curso"></li>
                     <li class="academic__courses__item__title"><h4>
                         Layouts Responsivos: trabalhando com layouts mobile</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2023 - Alura</p></li>
-                </ul>
+                        <li class="academic__courses__item__subtitle"><p>2023 - Alura</p></li>
+                    </ul>
             </div>
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
@@ -448,86 +490,11 @@
         </div>
     </section>
 
-    <section class="experience">
-        <h2 class="experience__section__title titulos" id="xp">Experiência Profissional</h2>
-        <div class="experience__container">
-            <div class="experiencie__box">
-                
-                <img class="experience__img" src="./assets/IMG/project/decodificador.png" alt="imagem do site Decodificador">
-                <div class="experience__info">
-                    <h2 class="experience__title"> Decodificador de texto</h2>
-                    <h3 class="experience__text">Challenge Alura Codificador.</h3>
-                    <h4 class="experience__text">concluido</h4>
-                        <div class="experience__description">
-                            
-                                <span class="experience__repo"><a target="_blank" href="https://github.com/BrunoDeMoura07/codificador"><button class="experiencia__botao--repo botao">Repositório</button></a></span>
-                                <span class="experience__demo"><a target="_blank" rel="external" href="https://challenge-alura-decodificador.vercel.app/"><button class="experiencia__botao--demo botao">Ver demo</button></a></span>
-                        </div>
-                </div>
-            </div>  
-
-            <div class="experiencie__box">
-                
-                <img class="experience__img" src="./assets/IMG/project/loja.png" alt="loja de celulares">
-                <div class="experience__info">
-                    <h2 class="experience__title">loja de celulares</h2>
-                    <h3 class="experience__text">projeto autoral para venda de celulares.</h3>
-                    <h4 class="experience__text">em desenvolvimento</h4>
-                        <div class="experience__description">
-                            
-                                <span class="experience__repo"><a target="_blank" rel="external" href="https://github.com/BrunoDeMoura07/Smartphone-Store"><button class="experiencia__botao--repo botao">Repositório</button></a></span>
-                                <span class="experience__demo"><a target="_blank" rel="external" href="https://smartphone-store.vercel.app/"><button class="experiencia__botao--demo botao">Ver demo</button></a></span>
-                        </div>
-                </div>
-            </div>
-            <div class="experiencie__box">
-                
-                <img class="experience__img" src="./assets/IMG/project/nwl-ai.png" alt="imagem da página de resumo">
-                <div class="experience__info">
-                    <h2 class="experience__title">Shorts Summary-AI</h2>
-                    <h3 class="experience__text">Resume video usando inteligência artificial.</h3>
-                    <h4 class="experience__text">em desenvolvimento</h4>
-                        <div class="experience__description">
-                            
-                                <span class="experience__repo"><a target="_blank" rel="external" href="https://github.com/BrunoDeMoura07/NLW-AI"><button class="experiencia__botao--repo botao">Repositório</button></a></span>
-                                <span class="experience__demo"><a target="_blank" rel="external" href="https://nlw-ai-one.vercel.app/"><button class="experiencia__botao--demo botao">Ver demo</button></a></span>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section> 
-
-    </div>
-
-        <section class="formcontato">
-            <div id="contato" class="formcontato__contato">
-                <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="assets/IMG/contato/contato.svg" alt="imagem de um telefone">
-                </div>
-                <div class="formcontato__text">
-                    <h2 class="formcontato__title">Contato</h2>
-                    <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
-                    <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
-                    <form class="formcontato__form">
-                        <label for="nome" class="nome input">Seu nome</label>
-                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
-                        <label for="email" class="e-mail input">Seu e-mail</label>
-                        <input class="formcontato__input" type="email" id="email" placeholder="Email">
-                        <label for="assunto" class="assunto input">Assunto</label>
-                        <input class="formcontato__input" type="text" id="assunto" placeholder="digite aqui...">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar mensagem</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <section class="footer">
-            <div class="footer__rodape">
-                <p>Copyright © 2023</p>
-                <p>Desenvolvido por Bruno Moura <br>2023</p>
-            </div>
-        </section>
+    <section class="footer">
+            <footer class="footer__rodape">
+                <p>Copyright © 2023<br>Desenvolvido por Bruno Moura</p>
+            </footer>
+    </section>
     </div>
     
  <script src="./assets/script/animacao-titulo.js"></script>

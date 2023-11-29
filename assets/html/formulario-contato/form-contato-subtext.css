@@ -1,4 +1,5 @@
 .formcontato__subtext{
+    color: var(--cor-preto);
     font-size: 1.6rem;
     font-weight: 500;
 }

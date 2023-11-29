@@ -1,8 +1,8 @@
 .titulo__perfil{
     border-radius: 20%;
     border: 3px solid var(--cor-azul-claro);
-    height: 20em;
-    width: 20em;
+    height: 25em;
+    width: 25em;
 }
 .titulo__perfil:hover {
     border: 3px solid var(--cor-verde-agua);

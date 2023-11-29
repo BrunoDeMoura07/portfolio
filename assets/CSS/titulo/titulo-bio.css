@@ -1,8 +1,19 @@
 .titulo__bio{
-    color: var(--cor-laranja);
+    color: var(--cor-amarelo);
     font-size: 5rem;
     font-weight: 700;
-    text-shadow: 5px 5px 5px black;
     transition: color 0.3s;
     margin-bottom: 2rem;
+    animation: thunder 3s infinite;
+}
+@keyframes thunder {
+    0% {
+      text-shadow: 0 0 1px #FFD700, 0 0 5px #FFD700, 0 0 10px #FFD700;
+    }
+    50% {
+      text-shadow: 0 0 10px #FFD700, 0 0 15px #FFD700, 0 0 20px #FFD700;
+    }
+    100% {
+      text-shadow: 0 0 15px #FFD700, 0 0 10px #FFD700, 0 0 1px #FFD700;
+    }
 }

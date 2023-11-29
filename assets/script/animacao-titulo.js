@@ -1,4 +1,4 @@
-const frontEndText = document.getElementById('titulo-bio');
+const frontEndText = document.getElementById('menu-titulo');
 
     function getRandomColor() {
       const letters = '0123456789ABCDEF';
@@ -18,6 +18,6 @@ const frontEndText = document.getElementById('titulo-bio');
       const intervalId = setInterval(changeColor, 100);
       frontEndText.addEventListener('mouseout', () => {
         clearInterval(intervalId);
-        frontEndText.style.color = 'var(--cor-laranja)';
+        frontEndText.style.color = 'var(--cor-amarelo)';
       });
     });
