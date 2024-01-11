@@ -1,10 +1,6 @@
 .titulo{
-    background-image: url("https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2023/02/Portfolio-Desenvolvedor-Web.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     box-sizing: border-box;
-    height: auto;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
