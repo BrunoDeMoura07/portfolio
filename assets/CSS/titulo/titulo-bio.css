@@ -6,6 +6,10 @@
     margin-bottom: 2rem;
     animation: thunder 3s infinite;
 }
+
+.titulo__bio span{
+    background-clip:linear-gradient(purple,cyan);
+}
 @keyframes thunder {
     0% {
       text-shadow: 0 0 1px #FFD700, 0 0 5px #FFD700, 0 0 10px #FFD700;
