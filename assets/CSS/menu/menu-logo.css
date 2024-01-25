@@ -1,9 +1,0 @@
-.menu__logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.logo{
-    color: var(--cor-branco);
-    height: 3.5rem;
-}

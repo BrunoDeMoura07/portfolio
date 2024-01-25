@@ -1,8 +1,0 @@
-.menu__titulo{
-    color:var(--cor-amarelo);
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-shadow: 0 0 2px #FFD700;
-    margin-left: 1rem;
-    text-shadow: 2px 2px 1px var(--cor-verde-agua);
-}
