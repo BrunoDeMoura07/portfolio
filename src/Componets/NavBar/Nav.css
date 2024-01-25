@@ -1,3 +1,13 @@
-.container__nav{
-    display: flex;
+.container__nav {
+  display: flex;
+  width: 100%;
+}
+.Nav ul {
+  display: flex;
+}
+.Nav li {
+  cursor: pointer;
+}
+.Nav a {
+  text-decoration: none;
 }

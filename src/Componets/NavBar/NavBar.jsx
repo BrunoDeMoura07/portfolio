@@ -3,25 +3,25 @@ import './Nav.css'
 function NavBar() {
     return (
         <div className='container__nav'>
-            <nav>
+            <nav className='Nav'>
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <button>Home</button>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <button>Skills</button>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <button>Formações</button>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <button>Experiencia</button>
                         </a>
                     </li>
