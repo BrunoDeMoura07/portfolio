@@ -14,10 +14,11 @@
 .img__perfil {
     width: 200px;
     height: 200px;
-    box-shadow: 3px 3px 3px 3px aqua;
+    box-shadow: 3px 3px 3px 3px rgb(5, 22, 22);
     border-radius: 50%;
-    border: 2px solid aquamarine;
+    border: 2px solid rgb(127, 255, 249);
     margin: 50px;
+    background-color: dodgerblue;
 }
 
 .titulo__perfil {
