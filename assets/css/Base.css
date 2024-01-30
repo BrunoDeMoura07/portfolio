@@ -1,0 +1,13 @@
+:root {
+  --fontTitulo: "agbalumo", sans-serif, roboto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(60, 62, 65);
+}

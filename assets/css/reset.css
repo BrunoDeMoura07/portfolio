@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove default padding */
+html {
+    padding: 0;
+}
+
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Remove outline on focused elements */
+a,
+button,
+input,
+textarea,
+select,
+label,
+a:active,
+a:hover,
+button:active,
+button:hover,
+input:active,
+input:hover,
+textarea:active,
+textarea:hover,
+select:active,
+select:hover {
+    outline: none;
+}
+
+/* Remove text-decoration on links */
+a {
+    text-decoration: none;
+}
+
+/* Ensure the cursor is a pointer on interactive elements */
+button,
+a,
+input,
+textarea,
+select {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
