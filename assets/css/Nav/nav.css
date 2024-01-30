@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-
+    position: fixed;
+    top: 0;
 }
 
 .logo {
@@ -19,7 +20,7 @@
 }
 
 .nav__bnt {
-    color: rgb(224, 11, 224);
+    color: aquamarine;
     font-weight: bold;
     font-size: 16px;
     text-shadow: 2px 2px 2px black;
