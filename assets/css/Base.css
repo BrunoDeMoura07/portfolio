@@ -7,7 +7,11 @@
   box-sizing: border-box;
 }
 
-body {
+body, main {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 100vw;
+  margin: 3px;
   font-family: Arial, sans-serif;
   background: rgb(60, 62, 65);
 }
