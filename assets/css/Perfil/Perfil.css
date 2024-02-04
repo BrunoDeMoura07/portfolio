@@ -1,9 +1,11 @@
 .container__perfil {
     display: flex;
+    flex: 1 1 100vw;
+    min-width: 350px;
     flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 50px;
-    padding: 12px;
+    padding: 5%;
 }
 
 .perfil {
@@ -12,13 +14,13 @@
 }
 
 .img__perfil {
-    width: 200px;
-    height: 200px;
+    max-width: 250px;
+    height: auto;
     box-shadow: 3px 3px 3px 3px rgb(5, 22, 22);
     border-radius: 50%;
-    border: 2px solid rgb(127, 255, 249);
+    border: 2px solid rgb(158, 31, 231);
     margin: 50px;
-    background-color: dodgerblue;
+    background-color: rgb(255, 30, 98);
 }
 
 .titulo__perfil {
@@ -34,4 +36,12 @@
     font-size: 24px;
     font-weight: bold;
     text-shadow: 2px 2px 1px black;
+}
+
+@media only screen and (max-width: 750px) {
+    .container__perfil{ 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
 }
