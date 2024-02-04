@@ -10,6 +10,15 @@ header #logo {
     background-color: #c9c9c9;
 }
 
+#openMenu, #closeMenu {
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 5px 0 5px;
+    display: none;
+}
+
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -31,4 +40,29 @@ nav .nav__bnt {
 
 .nav__bnt:active {
     color: aquamarine;
+}
+
+@media only screen and (max-width: 750px){
+    #openMenu, #closeMenu{
+        display: block;
+    }
+    #openMenu{
+        margin-left: auto;
+    }
+    #closeMenu{
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
+    #menu {
+        flex-direction: column;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.7);
+        display: none;
+        gap: 30px;
+    }
 }
