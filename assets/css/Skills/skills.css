@@ -5,16 +5,3 @@
     justify-content: center;
     text-align: center;
 }
-.skills {
-    flex-basis: calc(25% - 30px);
-}
-.skills__icon {
-    display: flex;
-    flex: 1 1 100vw;
-    flex-wrap: wrap;
-    background-color: #252525;
-    padding: 30px;
-    margin: 30px;
-    color: #fefefe;
-    border-radius: 10px;
-}
