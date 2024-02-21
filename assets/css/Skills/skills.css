@@ -1,25 +1,20 @@
-.container__sobre {
+.container__skills {
     display: flex;
     flex: 1 1 100vw;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 30px;
+    text-align: center;
 }
-
-.sobre__titulo, .skills__titulo {
-    font-size: 30px;
-    font-weight: 700;
-    color: tomato;
+.skills {
+    flex-basis: calc(25% - 30px);
 }
-
-.sobre {
+.skills__icon {
     display: flex;
+    flex: 1 1 100vw;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     background-color: #252525;
     padding: 30px;
+    margin: 30px;
     color: #fefefe;
     border-radius: 10px;
 }
