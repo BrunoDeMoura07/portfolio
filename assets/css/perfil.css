@@ -1,15 +1,13 @@
-.cabecalho {
-    display: flex;
-    flex: 1 1 100vw;
-    padding: 30px;
-}
+
 .container__perfil {
     display: flex;
     flex: 1 1 100vw;
     min-width: 350px;
-    flex-direction: row-reverse;
-    justify-content: space-between;
     padding: 5%;
+}
+.perfil {
+    display: flex;
+    flex: 1 1 100vw;
 }
 .titulo__perfil {
     color: gray;
@@ -22,13 +20,7 @@
     font-weight: 700;
     color: chartreuse;
 }
-.image > img {
-    background-color: chartreuse;
-    border-radius: 50%;
-    border: 2px solid cyan;
-    width: 200px;
-    height: 200px;
-}
+
 .sub-titulo {
     max-width: 500px;
     color: cyan;
