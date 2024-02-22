@@ -1,7 +1,0 @@
-.container__skills {
-    display: flex;
-    flex: 1 1 100vw;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
