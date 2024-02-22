@@ -2,12 +2,15 @@
 .container__perfil {
     display: flex;
     flex: 1 1 100vw;
-    min-width: 350px;
+    flex-wrap: wrap;
+    margin: 0 3%;
 }
 .perfil {
     display: flex;
     flex: 1 1 auto;
-    border: 1px solid white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 .titulo {
     font-size: 35pt;
