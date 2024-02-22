@@ -3,17 +3,11 @@
     display: flex;
     flex: 1 1 100vw;
     min-width: 350px;
-    padding: 5%;
 }
 .perfil {
     display: flex;
-    flex: 1 1 100vw;
-}
-.titulo__perfil {
-    color: gray;
-}
-.titulo__perfil > span {
-    color: tomato;
+    flex: 1 1 auto;
+    border: 1px solid white;
 }
 .titulo {
     font-size: 35pt;

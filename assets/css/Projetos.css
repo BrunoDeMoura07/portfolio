@@ -1,0 +1,9 @@
+.container__projetos {
+    display: flex;
+    flex: 1 1 auto;
+}
+.projeto__text {
+    font-size: large;
+    font-weight: 700;
+    color: chocolate;
+}
