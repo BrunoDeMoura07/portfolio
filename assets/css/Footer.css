@@ -1,0 +1,8 @@
+.container__footer {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #212121;
+}

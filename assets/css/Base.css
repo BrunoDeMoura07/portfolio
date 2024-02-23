@@ -12,6 +12,5 @@ body, main {
   flex-wrap: wrap;
   flex: 1 1 100vw;
   font-family: "Anta", sans-serif;
-  margin: 3px;
   background: #191919;
 }
