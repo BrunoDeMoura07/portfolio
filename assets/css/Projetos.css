@@ -1,8 +1,9 @@
 .container__projetos {
+    position: relative;
     display: flex;
     flex: 1 1 auto;
     flex-wrap: wrap;
-    gap: 8px;
+    justify-content: center;
 }
 .card {
     display: flex;
@@ -10,12 +11,11 @@
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    gap: 12px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    gap: 12px; 
 }
 
 .projetos__text {
+    position: absolute;
     font-size: large;
     font-weight: 700;
     color: chocolate;
@@ -24,7 +24,7 @@
     background-image: url(../image/Projetos/image.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 4px ;
+    border-radius: 4px;
     width: 300px;
     height: 200px;
 }
