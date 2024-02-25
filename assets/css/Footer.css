@@ -4,10 +4,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
     box-sizing: border-box;
     background: linear-gradient(#191919  , rgb(94, 214, 214));
 }

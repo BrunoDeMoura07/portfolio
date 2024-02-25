@@ -1,0 +1,19 @@
+.sobre {
+    display: flex;
+    flex: 1 1 100vw;
+    margin: 20px;
+}
+.sub-titulo {
+    background-color: #252525;
+    border-radius: 8px;
+    color: cyan;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+}
+.sub-titulo > span {
+    color: rgb(245, 148, 30);
+}
+.sub-titulo :first-child {
+    color: cornflowerblue;
+}

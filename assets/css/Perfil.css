@@ -8,24 +8,22 @@
 .perfil {
     display: flex;
     flex: 1 1 auto;
-    text-align: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     margin: 0;
     box-sizing: border-box;
+}
+.image > img {
+    background-color: chartreuse;
+    border-radius: 50%;
+    border: 1px solid cyan;
+    width: 150px;
+    height: 150px;
 }
 .titulo {
     font-size: 35pt;
     font-weight: 700;
     color: chartreuse;
-}
-
-.sub-titulo {
-    max-width: 500px;
-    color: cyan;
-}
-.sub-titulo > span {
-    color: rgb(245, 148, 30);
-}
-.sub-titulo :first-child {
-    color: cornflowerblue;
 }
