@@ -3,22 +3,22 @@
     display: flex;
     flex: 1 1 100vw;
     flex-wrap: wrap;
-    margin: 0 3%;
 }
 .perfil {
     display: flex;
     flex: 1 1 auto;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 10px;
-    margin: 0;
+    margin: 20px 100px;
     box-sizing: border-box;
 }
 .image > img {
     background-color: chartreuse;
     border-radius: 50%;
     border: 1px solid cyan;
+    margin: 0 80px; 
     width: 150px;
     height: 150px;
 }
