@@ -1,8 +1,7 @@
 .container__btn {
-    gap: 12px;
+    margin: 8px;
 }
 .btn {
-    background-color: rgb(54, 174, 179);
     color: rgb(8, 8, 8);
     font-weight: 700;
     text-align: center;
@@ -10,12 +9,16 @@
     border: none;
     box-shadow: 2px 2px 2px black;
     padding: 4px;
-    width: 100px    ;
-}
-.container__btn :first-child {
-    background-color: rgb(29, 214, 60);
+    width: 100px;
+    margin: 8px;
 }
 .btn:hover {
     background-color: rgb(245, 148, 30);
     color: rgb(8, 8, 8);
+}
+.btn-repo {
+    background-color: rgb(29, 214, 60);
+}
+.btn-visu {
+    background-color: rgb(54, 174, 179);
 }

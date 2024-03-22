@@ -24,11 +24,18 @@
     color: chocolate;
 }
 .card__projetos {
-    background-image: url(../image/Projetos/image.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 4px;
     width: 300px;
     height: 200px;
 }
-
+.img__projeto1 {
+    background-image: url(../image/Projetos/image.png);
+}
+.img__projeto2 {
+    background-image: url(../image/Projetos/projetoalura);
+}
+.img__projeto3 {
+    background-image: url(../image/Projetos/projetonlw) ;
+}
