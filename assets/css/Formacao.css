@@ -1,11 +1,45 @@
-.container__formacoes{
+.formacoes{
     display: flex;
     flex: 1 1 auto;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 100px 0;
+}
+.container__formacoes {
+    border-radius: 4px;
+}
+.card__formacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
 }
 .titulo__formacoes {
     font-size: larger;
     font-weight: 700;
     color: chocolate;
+    text-align: center;
+}
+.formacao {
+    font-size: large;
+    font-weight: 700;
+    color: blanchedalmond;
+}
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 300px;
+    height: 200px;
+}
+.img__formacoes1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
