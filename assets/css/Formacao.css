@@ -1,4 +1,11 @@
-.container__formacao {
+.container__formacoes{
     display: flex;
-    flex: 1 1 100vw;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+.titulo__formacoes {
+    font-size: larger;
+    font-weight: 700;
+    color: chocolate;
 }

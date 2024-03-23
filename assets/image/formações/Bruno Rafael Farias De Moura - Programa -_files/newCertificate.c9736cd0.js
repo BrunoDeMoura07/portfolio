@@ -1,0 +1,1 @@
+"use strict";!function(){var e=document.querySelector(".buttonLink_update"),t=document.querySelector(".update-description");function n(){t.classList.toggle("update-description--enabled")}null!=t&&(e.addEventListener("mouseover",n),e.addEventListener("mouseout",n))}();
