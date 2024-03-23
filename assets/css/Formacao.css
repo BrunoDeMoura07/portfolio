@@ -1,0 +1,4 @@
+.container__formacao {
+    display: flex;
+    flex: 1 1 100vw;
+}
