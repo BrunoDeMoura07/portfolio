@@ -27,3 +27,12 @@
     font-weight: 700;
     color: chartreuse;
 }
+
+@media ( max-width: 750px){
+    .perfil{
+        flex-direction: column;
+        min-width: 350px;
+        text-align: center;
+        margin: 20px;
+    }
+}
