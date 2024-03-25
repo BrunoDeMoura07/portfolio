@@ -29,10 +29,16 @@
 }
 
 @media ( max-width: 750px){
+    .container__perfil{
+        max-width: 100%;
+        overflow-y: auto;
+    }
     .perfil{
+        flex: 1 1 100vw;
         flex-direction: column;
         min-width: 350px;
         text-align: center;
-        margin: 20px;
+        margin: auto;
+        padding: auto;
     }
 }

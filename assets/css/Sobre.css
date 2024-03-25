@@ -17,3 +17,12 @@
 .sub-titulo :first-child {
     color: cornflowerblue;
 }
+
+@media screen and ( max-width: 750px){
+    .sobre{
+        max-width: 100%;
+        overflow-y: auto;
+        margin: auto;
+        padding: auto;
+    }
+}

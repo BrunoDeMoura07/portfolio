@@ -16,3 +16,18 @@
 .titulo__cabecalho > span {
     color: tomato;
 }
+
+@media screen and ( max-width: 750px){
+    .container__cabecalho{
+        flex-wrap: wrap;
+        max-width: 100%;
+        overflow-y: auto;
+        padding: auto;
+        margin: auto;
+    }
+    .cabecalho{
+        margin: auto;
+        padding: auto;
+    }
+    
+}

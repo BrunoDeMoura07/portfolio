@@ -14,3 +14,10 @@ body {
   font-family: "Anta", sans-serif;
   background: #191919;
 }
+
+@media screen and ( max-width: 750px){
+  body{
+      max-width: 100%;
+      overflow-y: auto;
+  }
+}
