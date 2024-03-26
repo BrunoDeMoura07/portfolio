@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,23 +15,25 @@
 
     <title>Front-end developer</title>
   </head>
-  <body class="bg-gray-800">
-    <header class="container">
+  <body>
+    <header>
       <nav class="bg-gray-700">
-        <h2 class="titulo__cabecalho">olá, sou <span>Bruno Moura</span></h2>
+        <h2 class="text-orange-500">olá, sou <span class="text-gray-500">Bruno Moura</span></h2>
       </nav>
     </header>
-    <main>
-      <section id="titulo" class="container__perfil">
-        <div class="perfil">
-          <div class="image">
+    <main class="bg-gray-900">
+      <section>
+        <div class="">
+          <div class="rounded-full">
             <img
-              class="img__perfil"
+              class="rounded-full"
               src="./assets/image/perfil2.png"
+              width="250px"
+              height="250px"
               alt="Perfil"
             />
           </div>
-          <div class="container__skills">
+          <div class="">
             <h1 class="titulo">Front end developer</h1>
             <div class="icons-skill">
               <div class="icon-nodejs"></div>
