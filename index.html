@@ -14,12 +14,26 @@
       rel="stylesheet"
     />
 
-    <title>Front-end developer</title>
+    <title>Bruno de Moura - Front-end developer</title>
   </head>
   <body class="bg-slate-800">
     <header>
       <nav class="flex justify-between items-center h-14 bg-slate-900">
         <h2 class="text-orange-500 text-2xl text-center ml-[2%]">olá, sou <span class="text-teal-500">Bruno Moura</span></h2>
+        <ul class="flex gap-2 mr-3">
+          <li>
+            <a href="#about" class="text-teal-500">Sobre</a>
+          </li>
+          <li>
+            <a href="#projects" class="text-teal-500">Projetos</a>
+          </li>
+          <li>
+            <a href="#contact" class="text-teal-500">Contato</a>
+          </li>
+          <li>
+            <a href="#formation" class="text-teal-500">Formações</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -44,8 +58,8 @@
           </div>
         </div>
       </section>
-      <section class="bg-slate-600 m-[2%] rounded-md p-[2%]">
-        <div class="text-lime-500">
+      <section id="about" class="bg-slate-600 m-[2%] rounded-md p-[2%]">
+        <div class="text-zinc-400">
           Eu sou bom com tecnologias como
           <span class="text-teal-400"
             >JavaScript, HTML5, CSS3 e tenho conhecimento em Nodejs, tailwind,
@@ -60,7 +74,7 @@
           contribuir em projetos desafiadores, trazendo inovação e eficiência.
         </div>
       </section>
-      <section class="m-[2%] p-[2%]">
+      <section id="projects" class="m-[2%] p-[2%]">
         <h3 class="text-2xl text-orange-500 text-center mb-[1%]">Projetos</h3>
         <div class="flex flex-auto justify-evenly flex-wrap">
           <div class="flex flex-col justify-center items-center rounded-md mt-3 mb-3">
@@ -151,7 +165,7 @@
           </div>
         </div>
       </section>
-      <section class="formacoes">
+      <section id="formation" class="formacoes">
         <div class="container__formacoes">
           <h3 class="titulo__formacoes">Formações</h3>
           <div class="card__formacoes">
@@ -177,7 +191,7 @@
         </div>
       </section>
       <footer class="container__footer">
-        <div class="footer__icon">
+        <div id="contact" class="footer__icon">
           <a href="https://github.com/BrunoDeMoura07" target="_blank"
             ><div class="icon-github"></div
           ></a>
