@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/css/Icon.css" />
     <link rel="stylesheet" href="assets/css/Buttons.css" />
+    <link rel="stylesheet" href="assets/css/Radio.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,12 +45,12 @@
         class="bg-opacity-10 bg-[url('./assets/image/banner-portfolio.jpg')] bg-cover"
       >
         <div class="flex flex-wrap justify-around flex-row-reverse p-[2%]">
-          <div class="rounded-full bg-violet-600 flex w-60 h-60 border-2 border-purple-500" >
+          <div class="rounded-full border-2 border-purple-500 flex w-60 h-60 bg-gradient-to-r from-cyan-500 to-purple-500" >
             <img
               class="rounded-full"
               src="./assets/image/perfil2.png"
               alt="Perfil"
-            />
+            /> 
           </div>
           <div class="flex flex-col justify-center text-center rounded-md">
             <h1
@@ -57,13 +58,41 @@
             >
               Front end developer
             </h1>
-            <div class="gap-1 text-center">
+            <!--<div class="gap-1 text-center">
               <div class="icon-html5"></div>
               <div class="icon-css3"></div>
               <div class="icon-nodejs"></div>
               <div class="icon-javascript"></div>
               <div class="icon-react"></div>
+            </div>-->
+            <div class="container">
+              <div class="radio-wrapper">
+                <input class="input" name="btn" id="value-1" type="radio">
+                <div class="btn">
+                  <span aria-hidden="">_</span>html
+                  <span class="btn__glitch" aria-hidden="">_Cyber🦾</span>
+                  <label class="number">HTML</label>
+                </div>
+              </div>
+              <div class="radio-wrapper">
+                <input class="input" name="btn" id="value-2" checked="true" type="radio">
+                <div class="btn">
+                  _CSS<span aria-hidden="">_</span>
+                  <span class="btn__glitch" aria-hidden="">_R_a_d_i_o_</span>
+                  <label class="number">CSS</label>
+                </div>
+              </div>
+              <div class="radio-wrapper">
+                <input class="input" name="btn" id="value-3" type="radio">
+                <div class="btn">
+                  JavaScript_<span aria-hidden=""></span>
+                  <span class="btn__glitch" aria-hidden="">Buttons_</span>
+                  <label class="number">JS</label>
+                </div> 
+              </div>
             </div>
+            
+            
           </div>
         </div>
       </section>
@@ -228,5 +257,6 @@
         <div class="text-center text-gray-200">Desde 2023</div>
       </footer>
     </main>
+    <script src="./assets/script/bnt-menu.js"></script>
   </body>
 </html>
