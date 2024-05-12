@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/Cabecalho.css" />
     <link rel="stylesheet" href="assets/css/Icon.css" />
     <link rel="stylesheet" href="assets/css/Buttons.css" />
     <link rel="stylesheet" href="assets/css/Radio.css" />
@@ -24,7 +25,13 @@
         <h2 class="text-orange-500 text-2xl text-center ml-[2%]">
           olá, sou <span class="text-teal-500">Bruno Moura</span>
         </h2>
-        <ul class="flex gap-2 mr-3">
+        <label class="burger" for="burger" onchange="clickMenu()">
+          <input type="checkbox" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="flex gap-2 mr-3" id="menu">
           <li>
             <a href="#about" class="a__btn text-teal-500"><button class="btn__nav">Sobre</button></a>
           </li>
@@ -257,6 +264,6 @@
         <div class="text-center text-gray-200">Desde 2023</div>
       </footer>
     </main>
-    <script src="./assets/script/bnt-menu.js"></script>
+    <script src="./assets/script/menu-burger.js"></script>
   </body>
 </html>
