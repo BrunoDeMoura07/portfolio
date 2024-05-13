@@ -57,6 +57,11 @@
     top: 28px;
     left: 5px;
   }
+  .menu{
+    display: flex;
+    gap: 8px;
+    margin-right: 1%;
+  }
 
 
 @media (max-width: 750px) {
@@ -70,8 +75,8 @@
     }
     .menu {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 50px;
+        right: 3%;
     }
     
   }
