@@ -1,0 +1,170 @@
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Aurora background behind the hero */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+.hero::before,
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 45vw;
+  height: 45vw;
+  min-width: 320px;
+  min-height: 320px;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.35;
+  z-index: 0;
+  pointer-events: none;
+}
+.hero::before {
+  background: radial-gradient(circle, #f97316, transparent 70%);
+  top: -10%;
+  left: -10%;
+  animation: auroraFloatA 14s ease-in-out infinite;
+}
+.hero::after {
+  background: radial-gradient(circle, #14b8a6, transparent 70%);
+  bottom: -15%;
+  right: -10%;
+  animation: auroraFloatB 16s ease-in-out infinite;
+}
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+@keyframes auroraFloatA {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(6%, 8%) scale(1.15); }
+}
+@keyframes auroraFloatB {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-6%, -8%) scale(1.1); }
+}
+
+/* Animated gradient text */
+.gradient-text-animated {
+  background-size: 200% auto;
+  animation: gradientShift 6s ease-in-out infinite;
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Profile picture: float + pulsing glow */
+.profile-float {
+  animation: profileFloat 5s ease-in-out infinite;
+}
+@keyframes profileFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.profile-glow {
+  animation: profileGlow 3s ease-in-out infinite;
+}
+@keyframes profileGlow {
+  0%, 100% { box-shadow: 0 0 15px 2px rgba(34, 211, 238, 0.5); }
+  50% { box-shadow: 0 0 30px 8px rgba(34, 211, 238, 0.85); }
+}
+
+/* Navbar scroll state */
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease, backdrop-filter 0.4s ease;
+}
+#navbar.scrolled {
+  background-color: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Project cards: 3D tilt + lift */
+.project-card {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.project-card:hover {
+  box-shadow: 0 20px 40px -10px rgba(168, 85, 247, 0.45);
+}
+.project-card-media {
+  overflow: hidden;
+}
+.project-card-media img {
+  transition: transform 0.5s ease;
+}
+.project-card:hover .project-card-media img {
+  transform: scale(1.12);
+}
+
+/* Buttons: shine sweep + scale */
+.btn-glow {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.btn-glow:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.4);
+}
+.btn-glow::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.6s ease;
+}
+.btn-glow:hover::after {
+  left: 125%;
+}
+
+/* Back to top button */
+#back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 50;
+  opacity: 0;
+  transform: translateY(20px) scale(0.8);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#back-to-top.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero::before,
+  .hero::after,
+  .gradient-text-animated,
+  .profile-float,
+  .profile-glow {
+    animation: none !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/Icon.css" />
     <link rel="stylesheet" href="assets/css/Buttons.css" />
     <link rel="stylesheet" href="assets/css/Radio.css" />
+    <link rel="stylesheet" href="assets/css/Animations.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,7 +22,7 @@
   </head>
   <body class="bg-slate-800 scroll-smooth">
     <header>
-      <nav class="flex justify-between items-center h-14 bg-slate-900">
+      <nav id="navbar" class="flex justify-between items-center h-14 bg-slate-900">
         <h2 class="text-orange-500 text-2xl text-center ml-[2%]">
           olá, sou <span class="text-teal-500">Bruno Moura</span>
         </h2>
@@ -29,36 +30,36 @@
     </header>
     <main>
       <section
-        class="bg-opacity-10 bg-[url('./assets/image/banner-portfolio.jpg')] bg-cover"
+        class="hero bg-opacity-10 bg-[url('./assets/image/banner-portfolio.jpg')] bg-cover"
       >
         <div class="flex flex-wrap justify-around flex-row-reverse p-[2%]">
-          <div class="rounded-full flex w-60 h-60" >
+          <div class="profile-float rounded-full flex w-60 h-60" >
             <img
-              class="rounded-full shadow-xl shadow-cyan-500 border-2 border-cyan-600"
+              class="profile-glow rounded-full shadow-xl shadow-cyan-500 border-2 border-cyan-600"
               src="./assets/image/perfil-front.jpeg"
               alt="Perfil"
-            /> 
+            />
           </div>
           <div class="flex flex-col justify-center text-center rounded-md">
-            <h1 class="text-5xl bg-gradient-to-tr from-orange-400 to-lime-400 text-transparent bg-clip-text">
+            <h1 class="gradient-text-animated text-5xl bg-gradient-to-tr from-orange-400 to-lime-400 text-transparent bg-clip-text">
               Desenvvolvedor Front-end <br>e web scraping
-            </h1>  
+            </h1>
           </div>
         </div>
       </section>
-      <section id="about" class="bg-slate-800 m-[2%] rounded-md p-[2%] shadow-black shadow-md border-2 border-purple-500">
+      <section id="about" class="reveal bg-slate-800 m-[2%] rounded-md p-[2%] shadow-black shadow-md border-2 border-purple-500">
         <h4 class="text-zinc-300">
           Atualmente me dedico ao desenvolvimento de soluções web front-end e análise de dados, tendo concluído cursos de especialização em tecnologias emergentes, como React JS, JavaScript, Python e etc. Minha jornada de aprendizado contínuo culminou com a formatura em Desenvolvimento Front End pela Alura em setembro de 2023, e a obtenção de certificações relevantes pela mesma, Rocketseat, Samsung Ocean e fundação bradesco.
         </h4>
       </section>
       <section id="projects" class="m-[2%] p-[2%] flex justify-center">
         <div class="flex flex-col">
-          <h3 class="text-2xl text-orange-500 text-center mb-[1%]">Projetos</h3>
+          <h3 class="reveal text-2xl text-orange-500 text-center mb-[1%]">Projetos</h3>
           <div class="flex flex-auto justify-evenly flex-wrap">
             <div
-              class="flex flex-col justify-center items-center rounded-md mt-3 mb-3"
+              class="project-card reveal flex flex-col justify-center items-center rounded-md mt-3 mb-3"
             >
-              <div class="w-52 h-auto bg-gray-400 rounded-md mb-2 border-2 border-purple-500">
+              <div class="project-card-media w-52 h-auto bg-gray-400 rounded-md mb-2 border-2 border-purple-500">
                 <img
                   class="rounded-md bg-cover"
                   src="./assets/image/Projetos/image.png"
@@ -76,17 +77,17 @@
                   href="https://github.com/BrunoDeMoura07/Smartphone-Store"
                   target="_blank"
                 >
-                  <button class="bg-green-500 rounded-md p-1 w-24">
+                  <button class="btn-glow bg-green-500 rounded-md p-1 w-24">
                     Repositório
                   </button>
                 </a>
                 <a href="https://smartphone-store.vercel.app/" target="_blank">
-                  <button class="bg-cyan-500 rounded-md p-1 w-24">Visitar</button>
+                  <button class="btn-glow bg-cyan-500 rounded-md p-1 w-24">Visitar</button>
                 </a>
               </div>
             </div>
-            <div class="flex flex-col justify-center items-center rounded-md mt-3 mb-3">
-              <div class="w-52 h-auto bg-gray-400 rounded-md mb-2 border-2 border-purple-500">
+            <div class="project-card reveal flex flex-col justify-center items-center rounded-md mt-3 mb-3">
+              <div class="project-card-media w-52 h-auto bg-gray-400 rounded-md mb-2 border-2 border-purple-500">
                 <img
                   class="rounded-md bg-cover"
                   src="./assets/image/Projetos/projetoalura"
@@ -104,7 +105,7 @@
                   href="https://github.com/BrunoDeMoura07/challenge-alura"
                   target="_blank"
                 >
-                  <button class="bg-green-500 rounded-md p-1 w-24">
+                  <button class="btn-glow bg-green-500 rounded-md p-1 w-24">
                     Repositório
                   </button>
                 </a>
@@ -112,12 +113,12 @@
                   href="https://challenge-alura-decodificador.vercel.app/"
                   target="_blank"
                 >
-                  <button class="bg-cyan-500 rounded-md p-1 w-24">Visitar</button>
+                  <button class="btn-glow bg-cyan-500 rounded-md p-1 w-24">Visitar</button>
                 </a>
               </div>
             </div>
-            <div class="flex flex-col justify-center items-center rounded-md mt-3 mb-3">
-              <div class="w-52 h-auto bg-gray-400 rounded-md mb-2 border-2 border-purple-500">
+            <div class="project-card reveal flex flex-col justify-center items-center rounded-md mt-3 mb-3">
+              <div class="project-card-media w-52 h-auto bg-gray-400 rounded-md mb-2 border-2 border-purple-500">
                 <img
                   class="rounded-md bg-cover"
                   src="./assets/image/Projetos/projetonlw"
@@ -135,19 +136,19 @@
                   href="https://github.com/BrunoDeMoura07/NLW-AI"
                   target="_blank"
                 >
-                  <button class="bg-green-500 rounded-md p-1 w-24">
+                  <button class="btn-glow bg-green-500 rounded-md p-1 w-24">
                     Repositório
                   </button>
                 </a>
                 <a href="https://nlw-ai-one.vercel.app/" target="_blank">
-                  <button class="bg-cyan-500 rounded-md p-1 w-24">Visitar</button>
+                  <button class="btn-glow bg-cyan-500 rounded-md p-1 w-24">Visitar</button>
                 </a>
               </div>
-            </div> 
+            </div>
 
           </div>
       </section>
-      <section id="formation" class="flex justify-center m-[2%]">
+      <section id="formation" class="reveal flex justify-center m-[2%]">
         <div class="flex flex-col">
           <h3 class="text-2xl text-orange-500 text-center">Formações</h3>
           <div
@@ -170,15 +171,14 @@
               href="https://cursos.alura.com.br/user/brunnofarias16/fullCertificate/cf8bb70d8f125b7e8c535cf34bd7e41a"
               target="_blank"
             >
-              <button class="p-2 bg-sky-500 rounded-md">
+              <button class="btn-glow p-2 bg-sky-500 rounded-md">
                 Click para ver
-              </button></a
-            >
+              </button></a>
           </div>
         </div>
         </div>
       </section>
-      <footer class="flex justify-center items-center flex-col bg-gray-700 p-[1%]">
+      <footer class="reveal flex justify-center items-center flex-col bg-gray-700 p-[1%]">
         <div id="contact" class="flex flex-1 justify-center p-1 gap-1">
           <a href="https://github.com/BrunoDeMoura07" target="_blank"
             ><div class="icon-github p-1"></div
@@ -192,10 +192,18 @@
             ><div class="icon-whatsapp p-1"></div
           ></a>
         </div>
-        <div class="text-center text-gray-200">Desenvolvido por Bruno Moura © 2024</div>
+        <div class="text-center text-gray-200">Desenvolvido por Bruno Moura © 2026</div>
         <div class="text-center text-gray-200">Desde 2023</div>
       </footer>
     </main>
+    <button
+      id="back-to-top"
+      aria-label="Voltar ao topo"
+      class="btn-glow bg-teal-500 text-white rounded-full w-11 h-11 shadow-lg"
+    >
+      &uarr;
+    </button>
     <script src="./assets/script/menu-burger.js"></script>
+    <script src="./assets/script/animations.js" defer></script>
   </body>
 </html>
