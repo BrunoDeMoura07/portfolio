@@ -34,4 +34,4 @@ Se você gostou do meu trabalho e deseja entrar em contato, sinta-se à vontade 
 
 ---
 
-Atenciosamente: Bruno Moura front end developer.
+Atenciosamente: Bruno Moura, desenvolvedor Full Stack e cientista de dados.
